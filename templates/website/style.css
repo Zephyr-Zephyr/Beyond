@@ -1,0 +1,44 @@
+:root {
+  --bg: #ffffff;
+  --fg: #16181f;
+  --muted: #5b5f70;
+  --accent: #4f46e5;
+  --border: #e6e6ee;
+  --font-display: "Segoe UI", system-ui, sans-serif;
+  --font-body: system-ui, sans-serif;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font-body); color: var(--fg); background: var(--bg); line-height: 1.6; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+.site-header { border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg); }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; }
+.logo { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; }
+nav a { margin-left: 1.5rem; color: var(--fg); text-decoration: none; }
+nav a:hover { color: var(--accent); }
+.menu-toggle { display: none; background: none; border: none; font-size: 1.4rem; cursor: pointer; }
+
+.hero { padding: 6rem 1.5rem 4rem; text-align: center; }
+.hero h1 { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+.hero p { color: var(--muted); max-width: 40ch; margin: 0 auto 2rem; }
+
+.btn { display: inline-block; background: var(--accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: var(--radius); text-decoration: none; font-weight: 600; }
+.btn:hover { opacity: 0.9; }
+
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; padding: 3rem 1.5rem; }
+.features article { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; }
+.features h3 { margin-top: 0; }
+.features p { color: var(--muted); margin-bottom: 0; }
+
+.cta { text-align: center; padding: 4rem 1.5rem; }
+
+.site-footer { text-align: center; color: var(--muted); padding: 2rem 1.5rem; border-top: 1px solid var(--border); }
+
+@media (max-width: 640px) {
+  .menu-toggle { display: block; }
+  nav { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+  nav.open { display: flex; }
+  nav a { margin: 0.5rem 0; }
+}
