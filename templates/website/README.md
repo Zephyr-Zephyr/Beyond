@@ -1,12 +1,12 @@
 # Website Template
 
-A frameless HTML/CSS/JS starting point for new static Lunaris Mini web
+A frameless HTML/CSS/JS starting point for new static Beyond web
 projects — no build step, no framework, just open it and go.
 
 ## Usage
 
 ```bash
-npx degit lunaris-mini/lunaris-mini/templates/website my-site
+npx degit Zephyr-Zephyr/Beyond/templates/website my-site
 cd my-site
 # open index.html in your browser, or serve it locally with e.g. npx serve .
 ```
