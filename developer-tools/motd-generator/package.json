@@ -1,0 +1,10 @@
+{
+  "name": "@beyond/motd-generator",
+  "version": "1.0.0",
+  "description": "CLI zum Erstellen von Minecraft-Server MOTDs mit Farbcodes und Live-Vorschau.",
+  "main": "index.js",
+  "type": "module",
+  "bin": { "motd-generator": "./index.js" },
+  "scripts": { "start": "node index.js" },
+  "license": "MIT"
+}

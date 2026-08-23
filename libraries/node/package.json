@@ -1,0 +1,8 @@
+{
+  "name": "@beyond/utils",
+  "version": "1.0.0",
+  "description": "Geteilte Helper-Funktionen fuer alle Beyond Bots und Tools (Logger, Embeds, Zeit-Utils).",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT"
+}

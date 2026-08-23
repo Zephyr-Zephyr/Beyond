@@ -1,0 +1,11 @@
+{
+  "name": "@beyond/embed-builder",
+  "version": "1.0.0",
+  "description": "CLI zum interaktiven Erstellen von Discord-Embed-JSON zum Copy-Pasten.",
+  "main": "index.js",
+  "type": "module",
+  "bin": { "embed-builder": "./index.js" },
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "prompts": "^2.4.2" },
+  "license": "MIT"
+}
