@@ -1,0 +1,16 @@
+{
+  "name": "beyond-system-bot",
+  "version": "1.0.0",
+  "description": "The central Discord bot of Beyond — core, moderation, tickets, logging and welcome, all in one, with more modules added over time.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}
