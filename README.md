@@ -20,7 +20,6 @@ beyond/
 │   │                                borders, hard shadows
 │   └── aurora/                    Soft pastel gradients, glass cards,
 │                                    rounded everything
-├── website/                       The Beyond landing page
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
