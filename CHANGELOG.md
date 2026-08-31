@@ -3,9 +3,6 @@
 ## [0.0.2] – Website + a second template
 
 ### Added
-- `website` — the Beyond landing page: light/violet design, four
-  module categories, quickstart section, links straight to the public
-  GitHub repo
 - `templates/brutal` — a second starter template, deliberately different
   from `templates/website`: high-contrast black/white/yellow, thick
   borders, hard offset shadows, monospace headlines, scrolling marquee
